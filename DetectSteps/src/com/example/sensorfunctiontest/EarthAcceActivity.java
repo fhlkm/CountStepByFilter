@@ -499,6 +499,9 @@ public class EarthAcceActivity extends Activity implements SensorEventListener {
 		sampleTimes++;
 		mDrawTrackingView.getPointList().clear();
 		mDrawTrackingView.invalidate();
+		stride.setText("0");
+		mStridesNumberView.setText("0");
+		
 		
 	}
 
